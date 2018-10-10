@@ -1,0 +1,27 @@
+{
+  "name": "sanderfeenstra-dot-com",
+  "homepage": "https://github.com/Sand3r205/sanderfeenstra-dot-com",
+  "description": "Website for sanderfeenstra.com",
+  "main": "index.html",
+  "keywords": [
+    "sander",
+    "feenstra",
+    "website",
+    "personal"
+  ],
+  "authors": [
+    "Sander Feenstra"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.1.3"
+  }
+}
