@@ -1,14 +1,12 @@
 html {
   height: 100%;
-  background-color: #333;
-
-  color: #fff;
 }
 
-body {
-  background-color: inherit;
 
-  color: inherit;
+.dark-container {
+    background-color: #333;
+
+    color: #fff;
 }
 
 /* Material Icons, copy pasta from http://google.github.io/material-design-icons/ */
@@ -55,10 +53,15 @@ body {
   font-size: 104px;
 }
 
+.increased-font {
+  font-size: 20px;
+}
+
 #linkedin-logo {
   margin-left: 13px;
 }
 
-.age-col {
-  margin-top: -30px;
+
+#github-logo {
+  height: 106px;
 }
