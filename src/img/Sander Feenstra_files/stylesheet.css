@@ -52,13 +52,5 @@ body {
 /* Custom sizes */
 
 .large {
-  font-size: 104px;
-}
-
-#linkedin-logo {
-  margin-left: 13px;
-}
-
-.age-col {
-  margin-top: -30px;
+  font-size: 6em;
 }
