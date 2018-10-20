@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+
+
+.dark-container {
+    background-color: #333;
+
+    color: #fff;
+}
+
+/* Custom sizes */
+
+.large {
+  font-size: 104px;
+}
+
+.increased-font {
+  font-size: 20px;
+}
+
+#linkedin-logo {
+  margin-left: 13px;
+}
+
+#github-logo {
+  height: 106px;
+}

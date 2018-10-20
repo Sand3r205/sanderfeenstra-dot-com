@@ -5,52 +5,183 @@
     <meta name="descripton" content="Sander Feenstra, the website!">
     <meta name="author" content="Sander Feenstra">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Disables cache for development -->
+    <meta http-equiv="cache-control" content="max-age=0" />
+
     <title>Sander Feenstra</title>
 
-    <!-- Imports -->
-    <!-- jQuery -->
-    <script src="jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <script src="bootstrap.bundle.min.js"></script>
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
-
-    <!-- Custom -->
-    <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    <!-- Webpack Import -->
+    <script src="main.js"></script>
 
   </head>
 
   <body class="text-center">
 
-    <div class="cover-container w-100 h-100 d-flex flex-column justify-content-between">
-      <header class="border-bottom">
-        <div class="w-75 mx-auto mt-2 d-flex flex-row justify-content-around">
-          <h3>Sander Feenstra</h3>
+    <div class="dark-container">
+
+      <div class="container py-5">
+
+        <div class="row">
+
+          <div class="col-md-6">
+
+            <h1>Sander Feenstra</h1>
+            <h3 class="text-muted">Entrepreneur and front end web developer</h3>
+
+            <br />
+
+            <p>
+              I believe that knowing the field of expertise of your client or project, increases your capabilities in creating the optimal software solution for them. Therefore I try to increase my knowledge of all fields to improve communication and be able to offer my clients extra quality.
+            </p>
+
+            <p>
+              I grew up in an enterprising family and took the advantage of seeing the processes of these businesses from A to Z, enabling me to be more than just a programmer.
+            </p>
+
+            <p>
+              With my existing knowledge in shipping, market research and small retail, I hope to be able to help clients in these fields. However, I am not afraid to take on challenges outside of these domains.
+            </p>
+
+          </div>
+
+          <div class="col-md-6">
+
+            <hr class="d-md-none border-secondary" />
+
+            <div class="row">
+              <div class="col-12">
+                <img id="profilepic" class="img-fluid rounded" alt="Profile Picture" />
+              </div>
+            </div>
+
+            <div class="row mt-3">
+              <div class="col-6">
+                <i class="material-icons large">
+                  email
+                </i>
+              </div>
+
+              <div class="col-6">
+                <i class="material-icons large">
+                  phone
+                </i>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-12 text-secondary">
+                Click to verify you are human. But not yet, since I haven't implemented the captcha, and I shouldn't put this data on Github so I have to do AJAX calls to a PHP file.
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col-6">
+                <a href="https://www.linkedin.com/in/sand3r205/"><img id="linkedin-logo" /></a>
+              </div>
+
+              <div class="col-6">
+                <a href="https://github.com/Sand3r205"><img id="github-logo" /></a>
+              </div>
+            </div>
+
+          </div>
+
         </div>
-      </header>
 
-      <main role="main" class="inner cover">
-        <h1 class="display-3">Sander Feenstra</h1>
-        <h4 class="text-white-50">Entrepreneur and full stack web developer</h4>
+      </div>
 
-        <hr />
+    </div>
 
-        <p class="lead">
-          This webpage is still under construction.
-        </p>
+    <div class="container pt-5">
 
-        <p class="lead">
-          Come back later!
-        </p>
-      </main>
+      <h1>Experience with the following languages and frameworks</h1>
 
-      <footer>
-        <div class="inner">
-          <p class="text-white-50">
-            Author: Sander Feenstra
-          </p>
+      <div class="row align-items-center justify-content-md-center">
+        <div class="col-4 col-md-3 py-3">
+          <img id="js" class="img-fluid rounded" />
         </div>
-      </footer>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="jquery" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="angularjs" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="angular" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="react" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="nodejs" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="html5" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="css3" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="bootstrap" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="material" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <samp class="increased-font">AWS</samp>
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <samp class="increased-font">Firebase</samp>
+        </div>
+      </div>
+
+      <h2>And played around with</h2>
+
+      <div class="row align-items-center justify-content-center">
+        <div class="col-4 col-md-3 py-3">
+          <samp class="increased-font">Java</samp>
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <samp class="increased-font">MySQL</samp>
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <img id="php" class="img-fluid" />
+        </div>
+
+        <div class="col-4 col-md-3 py-3">
+          <samp class="increased-font">Basic on TI-84</samp>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="dark-container">
+
+      <div class="container">
+
+        <a href="https://github.com/Sand3r205/sanderfeenstra-dot-com" class="text-secondary">
+          View this websites repository on Github
+        </a>
+
+      </div>
+
     </div>
 
   </body>
